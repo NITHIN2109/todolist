@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+}
+.ToDoList {
+  background-color: aquamarine;
+  height: 80vh;
+  margin: 0px;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  box-shadow: 0px 0px 15px 25px;
+  overflow: auto;
+}
+.ToDoInput {
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  height: 20px;
+  font-size: large;
+  background-color: azure;
+}
+.Active {
+  display: block;
+  min-height: 900px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.UnActive {
+  display: none;
+}
+/* .Main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+} */
+.Menuitemns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+button {
+  padding: 5px;
+  font-size: large;
+
+  cursor: pointer;
+}
+.item {
+  border: 5px solid transparent;
+  width: 150px;
+  background: none;
+}
+.item:hover {
+  border-bottom: 5px solid rgb(0, 123, 255);
+  transition: border-color 0.3s ease-in-out;
+}
+p {
+  display: inline;
+}
+li {
+  list-style: none;
+  text-align: left;
+  margin: 10px;
+  font-size: 25px;
+  font-family: cursive;
+  display: flex;
+  justify-content: space-between;
+}
+li > span {
+  width: 80%;
+}
+input[type="checkbox"] {
+  margin-right: 20px;
+  transform: scale(2);
+}
+.delete {
+  border: none;
+  background: none;
+}
+.NoTask {
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+.active {
+  border-bottom: 5px solid blue;
+}
